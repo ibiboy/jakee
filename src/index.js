@@ -29,7 +29,16 @@
 // val4.name = "jak";
 // console.log(val4.name);
 
-const val5 = ["dog", "cat"];
-val5[0] = "bird";
-val5.push("monkey");
-console.log(val5);
+// const val5 = ["dog", "cat"];
+// val5[0] = "bird";
+// val5.push("monkey");
+// console.log(val5);
+
+const name = "ジャケえ";
+const age = 28;
+
+// const message1 = "私の名前は" + name + "です。年齢は" + age + "です。";
+// console.log(message1);
+
+const message2 = `私の名前は${name}です。年齢は${age}です。`;
+console.log(message2);
